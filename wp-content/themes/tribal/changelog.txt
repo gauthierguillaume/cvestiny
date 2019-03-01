@@ -1,0 +1,67 @@
+ChangeLog
+=========
+
+
+Version 0.9 
+
+	- Initial Release
+	
+Version 0.91
+
+	- Textdomain Fixes
+	- Corrected Template Names
+	- Fixed Default Sidebar Width issues.	
+	- Escaped Various URLs and Attributes.
+	- Delted JS Files not being Used.
+	- Added Unminified Versions of JS Files.
+	- Stated Licenses for Images Used In Screenshots.
+
+Version 0.92
+
+	- TextDomain Corrections
+	- Removed config.codekit
+	
+Version 0.93
+
+	- Removed Unwanted comments
+	- Removed prefixes for 3rd party scripts
+	- Deleted unused image.	
+
+Version 0.94
+
+	- Added License for Tooltipster
+
+Version 0.95
+
+	- Removed Duplicate theme tags
+	- Added POT file
+	- Other Minor Bug Fixes.
+	
+Version 0.96
+
+	- Sanitization & Validation Bug Fixes.
+	- Layout Fixes
+	- Functions/Classes Prefixed.
+	- Theme now uses Core Version of the_archive_title() & the_archive_description()
+	- Localized Strings
+	- Copyrights and Licenses Declared Properly	
+	
+Version 0.97
+
+	- Sanitization/Validation Bugs
+	- Added post-formats tag to css
+	- Fixed Post Title Links
+		
+Version 0.98
+
+	- Escaped CSS Mods
+	- Fixed Post Title Links in 4 col layout	
+	
+Version 1.0 
+	
+	- Fixed Theme URI
+	- Corrected Author URI	
+	
+Version 1.0.0.1
+
+	i) Changed footer link to nofollow	
