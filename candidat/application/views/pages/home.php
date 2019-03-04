@@ -1,0 +1,150 @@
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">CVestiny</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto my-2 my-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#about">Qui sommes-nous ?</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                </li>
+
+
+                <?php if (is_logged()){ ?>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="<?php echo base_url('/pages/disconnect'); ?>">Déconnexion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="<?php echo base_url('/pages/insertcv');
+                    ?>">Insérer votre CV</a>
+                    </li>
+                <?php  } else { ?>
+
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="<?php echo base_url('/pages/register'); ?>">Inscription</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="<?php echo base_url('/pages/login'); ?>">Connexion</a>
+                </li>
+
+                <?php } ?>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Masthead -->
+<header class="masthead">
+    <div class="container h-100">
+        <div class="row h-100 align-items-center justify-content-center text-center">
+            <div class="col-lg-10 align-self-end">
+                <h1 class="text-uppercase text-white font-weight-bold">Un cv = un job, prenez votre destin entre vos
+                    mains
+                </h1>
+                <hr class="divider my-4">
+            </div>
+            <div class="col-lg-8 align-self-baseline">
+                <p class="text-white-75 font-weight-light mb-5">Des recruteurs qui sont à la recherche de la perle rare,
+                    partagez votre cv pour être contacté</p>
+                <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">En savoir Plus</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- About Section -->
+<section class="page-section bg-primary" id="about">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+                <h2 class="text-white mt-0">Vous l'attendez depuis un moment</h2>
+                <hr class="divider light my-4">
+                <p class="text-black-50 mb-4">Avec Cvestiny multipliez vos chances de retrouver un travail, stage... Grâce
+                    à nos partenaire fiable et sérieux   </p>
+                <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Commencer!</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section class="page-section hmed" id="services">
+    <div class="container">
+        <h2 class="text-center mt-0">Comment ça marche</h2>
+        <hr class="divider my-4">
+        <div class="row">
+<?php if (!is_logged()) { ?>
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="mt-5">
+                    <i class="fas fa-4x fa-gem text-primary mb-4"></i>
+                    <h3 class="h4 mb-2">Inscription</h3>
+                    <p class="text-muted mb-0">Inscrivez-vous c'est simple et rapide!</p>
+                    <a href="<?php echo base_url('/pages/register'); ?>" > <input class="btn btn-primary" type="button" value="Inscription"> </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="mt-5">
+                    <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
+                    <h3 class="h4 mb-2">connexion</h3>
+                    <p class="text-muted mb-0">Connectez-vous pour partager vos CV</p>
+                    <a href="<?php echo base_url('/pages/login'); ?>" > <input class="btn btn-primary" type="button" value="Connexion"> </a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="mt-5">
+                    <i class="fas fa-4x fa-globe text-primary mb-4"></i>
+                    <h3 class="h4 mb-2">Insérer</h3>
+                    <p class="text-muted mb-0">Renseigné vos compétences,formations pour partager votre cv</p>
+                </div>
+            </div>
+            <div class="col-lg-8 col-md-11 text-center">
+                <div class="mt-5">
+                    <i class="fas fa-4x fa-heart text-primary mb-4"></i>
+                    <h3 class="h4 mb-2">Magie</h3>
+                    <p class="text-muted mb-0">laissez faire la magie</p>
+                </div>
+            </div>
+            <?php } else { ?>
+       <div class="col-sm-8 col-md-4 ">
+                <div class="mt-5">
+                    <i class="fas fa-6x fa-globe text-primary mb-4"></i>
+                    <h3 class="h4 mb-2">Insérer</h3>
+                    <p class="text-muted mb-0">Renseigné vos compétences,formations pour partager votre cv</p>
+                </div>
+            </div>
+            <div class="col-lg- col-md-8 text-lg-right ">
+                <div class="mt-5">
+                    <i class="fas fa-4x fa-heart text-primary mb-4"></i>
+                    <h3 class="h4 mb-2">Magie</h3>
+                    <p class="text-muted mb-0 ">laissez faire la magie</p>
+                </div>
+            </div>
+            <?php } ?>
+
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Contact Section -->
+<section class="page-section" id="contact">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+                <h2 class="mt-0">Prêt a démarer une nouvelle vie?</h2>
+                <hr class="divider my-4">
+                <p class="text-muted mb-5">N'attendez plus prenez votre destin en main!</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
