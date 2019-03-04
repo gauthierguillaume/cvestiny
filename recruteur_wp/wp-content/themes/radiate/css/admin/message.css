@@ -1,0 +1,43 @@
+.radiate-message {
+	overflow: hidden;
+	position: relative;
+	border-left-color: #2ea2cc !important;
+}
+.radiate-message a.button-primary,
+.radiate-message a.button-secondary {
+	text-decoration: none !important;
+}
+.radiate-message a.radiate-message-close {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 10px 15px 10px 21px;
+	font-size: 13px;
+	line-height: 1.23076923;
+	text-decoration: none;
+}
+.radiate-message a.radiate-message-close:before {
+	position: absolute;
+	top: 8px;
+	left: 0;
+	-webkit-transition: all .1s ease-in-out;
+	transition: all .1s ease-in-out;
+}
+.wrap #message.radiate-message {
+	padding-right: 72px;
+}
+@media screen and (max-width: 782px) {
+	.radiate-message-close.notice-dismiss {
+		overflow: hidden;
+	    text-indent: 40px;
+	    white-space: nowrap;
+	    width: 20px;
+	    height: 20px;
+	    padding: 5px;
+	    top: 5px;
+	    right: 5px;
+	}
+	.radiate-message a.radiate-message-close:before {
+		left: -15px;
+	}
+}

@@ -1,0 +1,409 @@
+# Translation of Themes - Tribal in French (France)
+# This file is distributed under the same license as the Themes - Tribal package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-01-29 12:19:22+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
+"Language: fr\n"
+"Project-Id-Version: Themes - Tribal\n"
+
+#. Description of the plugin/theme
+msgid "Are you a Professional Photographer in Need of Showcasing His work in the Best Possible Way? Well, We have got you Covered. Tribal is a Premium Quality WordPress which has been designed keeping in mind, the needs of a Professional Photographer or Companies. It has a Beautiful Gallery Layout, An About Me Secion, Multiple Layouts to Display Photos on HomePage, a Responsive Slider, a Featured Photos Section and much more. Tribal is Full Responsive working on all Devices, Retina Ready and Translation Ready. THEME DEMO -> http://demo.rohitink.com/tribal/"
+msgstr "Vous êtes un photographe professionnel qui a besoin de mettre en valeur son travail de la meilleure façon possible ? Eh bien, nous avons ce qu'il vous faut. Tribal est un thème WordPress de qualité premium qui a été conçu en gardant à l'esprit les besoins d’un photographe professionnel ou des sociétés. Il a une belle mise en page de galerie, une section à propos de moi, de multiples mises en page pour afficher les photos en page d’accueil, un diaporama responsive, une section photos mises en avant et bien plus encore. Tribal est entièrement responsive sur tous les appareils, prêt pour Retina et prêt pour la traduction. Démo du thème -> http://demo.rohitink.com/tribal/"
+
+#. Theme Name of the plugin/theme
+msgid "Tribal"
+msgstr "Tribal"
+
+#: sidebar.php:22
+msgid "Powered By %1$s."
+msgstr "Propulsé par %1$s."
+
+#: sidebar.php:21
+msgid ". All Rights Reserved. "
+msgstr ". Tous droits réservés."
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Résultats de la recherche pour&nbsp;: %s"
+
+#: inc/template-tags.php:215
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de validation"
+
+#: inc/template-tags.php:209
+msgctxt "1: date"
+msgid "%1$s"
+msgstr "%1$s"
+
+#: inc/template-tags.php:194
+msgid "Pingback:"
+msgstr "Ping"
+
+#: inc/template-tags.php:140
+msgid "% Comments"
+msgstr "% commentaires"
+
+#: inc/template-tags.php:140
+msgid "1 Comment"
+msgstr "1 Commentaire"
+
+#: inc/template-tags.php:140
+msgid "Leave a comment"
+msgstr "Laissez un commentaire"
+
+#: inc/template-tags.php:134
+msgid "Tagged %1$s"
+msgstr "Étiqueté %1$s"
+
+#: inc/template-tags.php:128
+msgid "Posted in %1$s"
+msgstr "Publié dans  %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:126 inc/template-tags.php:132
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:87
+msgctxt "post author"
+msgid "by %s"
+msgstr "par %s"
+
+#: inc/template-tags.php:82
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Publié le %s"
+
+#: inc/template-tags.php:56
+msgctxt "Next post link"
+msgid "%title&nbsp;<span class=\"meta-nav\">&rarr;</span>"
+msgstr "%title&nbsp;<span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:55
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span>&nbsp;%title"
+msgstr "<span class=\"meta-nav\">&larr;</span>&nbsp;%title"
+
+#: inc/template-tags.php:52
+msgid "Post navigation"
+msgstr "Navigation d'article"
+
+#: inc/template-tags.php:29
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Nouvelles publications <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:25
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Anciennes publications"
+
+#: inc/template-tags.php:21
+msgid "Posts navigation"
+msgstr "Navigation au sein des articles"
+
+#: inc/jetpack.php:33
+msgid "Load more..."
+msgstr "Charger la suite..."
+
+#: inc/extras.php:64
+msgid "Page %s"
+msgstr "Page %s"
+
+#: inc/customizer.php:398
+msgid " Url"
+msgstr "URL"
+
+#: inc/customizer.php:385 inc/customizer.php:398
+msgid "Icon "
+msgstr "Icône"
+
+#: inc/customizer.php:370
+msgid "Youtube"
+msgstr "YouTube"
+
+#: inc/customizer.php:369
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: inc/customizer.php:368
+msgid "RSS Feeds"
+msgstr "Fils RSS"
+
+#: inc/customizer.php:367
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/customizer.php:366
+msgid "Google Plus"
+msgstr "Google+"
+
+#: inc/customizer.php:365
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/customizer.php:364
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/customizer.php:363
+msgid "-"
+msgstr "-"
+
+#: inc/customizer.php:358
+msgid "Social Icons"
+msgstr "Icônes sociaux"
+
+#: inc/customizer.php:348
+msgid "Body"
+msgstr "Corps"
+
+#: inc/customizer.php:332
+msgid "Title"
+msgstr "Titre :"
+
+#: inc/customizer.php:308
+msgid "Defaults: Pacifico, Montserrat."
+msgstr "Par défaut : Pacifico, Montserrat."
+
+#: inc/customizer.php:306
+msgid "Google Web Fonts"
+msgstr "Google Web Fonts"
+
+#: inc/customizer.php:280
+msgid "Enter your Own Copyright Text."
+msgstr "Saisissez votre propre texte de copyright."
+
+#: inc/customizer.php:279
+msgid "Custom Footer Text"
+msgstr "Votre texte de pied de page"
+
+#: inc/customizer.php:244
+msgid "Enter your Custom CSS to Modify design."
+msgstr "Saisissez votre CSS personnalisé pour modifier le design."
+
+#: inc/customizer.php:243
+msgid "Custom CSS"
+msgstr "CSS Personalisée"
+
+#: inc/customizer.php:205
+msgid "Min: 25%, Default: 33%, Max: 40%"
+msgstr "Min. : 25%, Par défaut : 33%, Max. : 40%"
+
+#: inc/customizer.php:204
+msgid "Sidebar Width"
+msgstr "Largeur de la barre latérale"
+
+#: inc/customizer.php:185
+msgid "Disable Sidebar on Front Page."
+msgstr "Désactiver la barre latérale sur la page d’accueil."
+
+#: inc/customizer.php:169
+msgid "Disable Sidebar on Blog & Archives."
+msgstr "Désactiver la barre latérale sur le blog & les archives."
+
+#: inc/customizer.php:154
+msgid "Disable Sidebar Everywhere."
+msgstr "Désactiver la barre latérale partout."
+
+#: inc/customizer.php:140
+msgid "Sidebar Layout"
+msgstr "Mise en page de la colonne latérale"
+
+#: inc/customizer.php:131
+msgid "3 Column (with Basic Hover Effect)"
+msgstr "3 colonnes (avec effet basique au survol)"
+
+#: inc/customizer.php:130
+msgid "4 Column"
+msgstr "4 colonnes"
+
+#: inc/customizer.php:129
+msgid "Default Layout with Basic Hover Effect"
+msgstr "Mise en page par défaut avec effet basique au survol"
+
+#: inc/customizer.php:128
+msgid "Default Layout"
+msgstr "Style par défaut"
+
+#: inc/customizer.php:123
+msgid "Select Layout"
+msgstr "Sélectionner la mise en page"
+
+#: inc/customizer.php:102
+msgid "Blog Layout"
+msgstr "Mise en page du blog"
+
+#: inc/customizer.php:95
+msgid "Design & Layout"
+msgstr "Design & mise en page"
+
+#: inc/customizer.php:78
+msgid "Hide Title and Tagline."
+msgstr "Masquer le titre et le slogan."
+
+#: inc/customizer.php:61
+msgid "Site Title Color"
+msgstr "Couleur du titre du site"
+
+#: inc/customizer.php:34
+msgid "Upload Logo"
+msgstr "Mettre en ligne le logo"
+
+#: inc/customizer.php:21
+msgid "Title, Tagline & Logo"
+msgstr "Titre, slogan & logo"
+
+#: header.php:41
+msgid "Menu"
+msgstr "Menu"
+
+#: header.php:23
+msgid "Skip to content"
+msgstr "Aller au contenu"
+
+#: functions.php:129
+msgid "Footer 4"
+msgstr "Pied de page 4"
+
+#: functions.php:120
+msgid "Footer 3"
+msgstr "Pied de page 3"
+
+#: functions.php:111
+msgid "Footer 2"
+msgstr "Pied de page 2"
+
+#: functions.php:102
+msgid "Footer 1"
+msgstr "Pied de page 1"
+
+#: functions.php:92
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: functions.php:54
+msgid "Primary Menu"
+msgstr "Menu principal"
+
+#: framework/widgets/recent-posts.php:97
+msgid "No. of Posts:"
+msgstr "No. of Posts:"
+
+#: framework/widgets/recent-posts.php:94
+msgid "Title:"
+msgstr "Titre’:"
+
+#: framework/widgets/recent-posts.php:90
+msgid "5"
+msgstr "5"
+
+#: framework/widgets/recent-posts.php:84
+msgid "Latest Articles"
+msgstr "Latest Articles"
+
+#: framework/widgets/recent-posts.php:23
+msgid "Latest Posts"
+msgstr "Derniers articles"
+
+#: framework/widgets/recent-posts.php:14
+msgid "Display your recent posts, with a Thumbnail."
+msgstr "Display your recent posts, with a Thumbnail."
+
+#: framework/widgets/recent-posts.php:13
+msgid "Tribal Recent Posts with Thumbnails"
+msgstr "Tribal articles récents avec miniatures"
+
+#: framework/theme-functions.php:77
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; Sélectionnez &mdash;"
+
+#: framework/layouts/content-tribal.php:14
+#: framework/layouts/content-tribal_4_col.php:14
+msgid "View More"
+msgstr "Voir la suite"
+
+#. translators: %s: Name of current post
+#: content.php:22
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Continuer la lecture<span class=\"screen-reader-text\"> de %s</span>&nbsp;<span class=\"meta-nav\">&rarr;</span>"
+
+#: content-page.php:25 inc/template-tags.php:144 inc/template-tags.php:194
+#: inc/template-tags.php:230
+msgid "Edit"
+msgstr "Éditer"
+
+#: content-page.php:18 content-single.php:43 content.php:29
+msgid "Pages:"
+msgstr "Pages"
+
+#: content-none.php:27
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Il semble que rien ne soit trouvé pour votre recherche."
+
+#: content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Désolé, mais rien ne correspond à vos critères."
+
+#: content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Prêt à publier votre 1er article ? <a href=\"%1$s\">Lancez vous ici</a>."
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "Aucun résultat"
+
+#: comments.php:65
+msgid "Comments are closed."
+msgstr "Les commentaires sont clos."
+
+#: comments.php:37 comments.php:55
+msgid "Newer Comments &rarr;"
+msgstr "Commentaires plus récents &rarr;"
+
+#: comments.php:36 comments.php:54
+msgid "&larr; Older Comments"
+msgstr "&larr; Commentaire plus anciens"
+
+#: comments.php:35 comments.php:53
+msgid "Comment navigation"
+msgstr "Navigation de commentaire"
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Une réaction au sujet de &laquo;&nbsp;%2$s&nbsp;&raquo;"
+msgstr[1] "%1$s réactions au sujet de &laquo;&nbsp;%2$s&nbsp;&raquo;"
+
+#. translators: %1$s: smiley
+#: 404.php:44
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Essayez de voir du côté des archives mensuelles. %1$s"
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "Catégories les plus utilisées"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Contenu Introuvable. L'outil de Recherche ou les Liens ci-dessous vous remettront peut-être sur la voie&hellip;"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oups, la page ne peut être trouvée"
+
+#. Author URI of the plugin/theme
+msgid "https://rohitink.com"
+msgstr "https://rohitink.com"
+
+#. Author of the plugin/theme
+msgid "Rohit Tripathi"
+msgstr "Rohit Tripathi"
+
+#. Theme URI of the plugin/theme
+msgid "https://rohitink.com/2015/05/05/tribal-creative-theme/"
+msgstr "https://rohitink.com/2015/05/05/tribal-creative-theme/"
