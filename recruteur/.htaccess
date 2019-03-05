@@ -12,11 +12,11 @@ Options All -Indexes
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /projets/cvestiny/
+RewriteBase /projets/cvestiny/recruteur/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /projets/cvestiny/index.php [L]
+RewriteRule . /projets/cvestiny/recruteur/index.php [L]
 </IfModule>
 
 # END WordPress

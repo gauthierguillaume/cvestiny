@@ -4,12 +4,10 @@
  * @version 1.7.1
  */
 /*
-Plugin Name: Hello Dolly
-Plugin URI: http://wordpress.org/plugins/hello-dolly/
-Description: This is not just a plugin, it symbolizes the hope and enthusiasm of an entire generation summed up in two words sung most famously by Louis Armstrong: Hello, Dolly. When activated you will randomly see a lyric from <cite>Hello, Dolly</cite> in the upper right of your admin screen on every page.
-Author: Matt Mullenweg
-Version: 1.7.1
-Author URI: http://ma.tt/
+Plugin Name: Get CV
+Description: Plugin permettant d'afficher les cv stockées dans une base de donnees externe
+Author: Yamna MELKI & Baptiste ANGOT
+Version: 0.1.0
 */
 
 function hello_dolly_get_lyric() {
@@ -81,4 +79,4 @@ function dolly_css() {
 
 add_action( 'admin_head', 'dolly_css' );
 
-
+add_shortcode('getcv', 'get_cv');
