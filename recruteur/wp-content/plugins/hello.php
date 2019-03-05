@@ -1,6 +1,6 @@
 <?php
 /**
- * @package Hello_Dolly
+ * @package GetCV
  * @version 1.7.1
  */
 /*
@@ -10,48 +10,37 @@ Author: Yamna MELKI & Baptiste ANGOT
 Version: 0.1.0
 */
 
-function hello_dolly_get_lyric() {
-	/** These are the lyrics to Hello Dolly */
-	$lyrics = "Hello, Dolly
-Well, hello, Dolly
-It's so nice to have you back where you belong
-You're lookin' swell, Dolly
-I can tell, Dolly
-You're still glowin', you're still crowin'
-You're still goin' strong
-I feel the room swayin'
-While the band's playin'
-One of our old favorite songs from way back when
-So, take her wrap, fellas
-Dolly, never go away again 
-Hello, Dolly
-Well, hello, Dolly
-It's so nice to have you back where you belong
-You're lookin' swell, Dolly
-I can tell, Dolly
-You're still glowin', you're still crowin'
-You're still goin' strong
-I feel the room swayin'
-While the band's playin'
-One of our old favorite songs from way back when
-So, golly, gee, fellas
-Have a little faith in me, fellas
-Dolly, never go away
-Promise, you'll never go away
-Dolly'll never go away again";
-
-	// Here we split it into lines
-	$lyrics = explode( "\n", $lyrics );
-
-	// And then randomly choose a line
-	return wptexturize( $lyrics[ mt_rand( 0, count( $lyrics ) - 1 ) ] );
+function get($resource){
+    $apiUrl = 'http://localhost/projets/cvestiny/recruteur/wp-json';
+    $json = file_get_contents($apiUrl.$resource);
+    $result = json_decode($json);
 }
 
-// This just echoes the chosen line, we'll position it later
-function hello_dolly() {
-	$chosen = hello_dolly_get_lyric();
-	echo "<p id='dolly'>$chosen</p>";
+// Interroge le service "/"
+$api = get('/');
+
+// Affiche le nom du site Wordpress
+echo $api->name . ' ';
+
+// Affiche la description du site Wordpress
+echo $api->description;
+echo '<br>';
+$pages = get('/wp/v2/pages');
+
+foreach ($pages as $page) {
+    echo 'Page ' . $page->id . ' : ' . $page->slug . '<br>';
 }
+
+add_shortcode('getcv', 'get_cv');
+
+
+
+
+
+
+
+
+
 
 // Now we set that function up to execute when the admin_notices action is called
 add_action( 'admin_notices', 'hello_dolly' );
@@ -78,5 +67,3 @@ function dolly_css() {
 }
 
 add_action( 'admin_head', 'dolly_css' );
-
-add_shortcode('getcv', 'get_cv');
