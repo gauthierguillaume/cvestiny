@@ -53,8 +53,17 @@ $route['default_controller'] = 'pages';
 $route['(:any)'] = 'pages/$1';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
-$route["api/v1/candidat_loisir/getAll"]["get"]           = "candidat_api";
-/*$route["api/v1/candidat_loisir/(:num)"]["get"]    = "candidat_api/view/$1";
-$route["api/v1/candidat_loisir"]["post"]          = "candidat_api/create";
-$route["api/v1/candidat_loisir/(:num)"]["put"]    = "candidat_api/update/$1";
-$route["api/v1/candidat_loisir/(:num)"]["delete"] = "candidat_api/delete/$1";*/
+$route["candidat_api/getAll"]["get"]     = "Candidat_api";
+$route["candidat_api/(:num)"]["get"]    = "candidat_api/view/$1";
+//$route["candidat_api"]["post"]          = "candidat_api/create";
+//$route["candidat_api/(:num)"]["put"]    = "candidat_api/update/$1";
+//$route["candidat_api/(:num)"]["delete"] = "candidat_api/delete/$1";
+
+
+
+
+
+//$route["api/v1/product/(:num)"]["get"]    = "api/v1/product/view/$1";
+//$route["api/v1/product"]["post"]          = "api/v1/product/create";
+//$route["api/v1/product/(:num)"]["put"]    = "api/v1/product/update/$1";
+//$route["api/v1/product/(:num)"]["delete"] = "api/v1/product/delete/$1";

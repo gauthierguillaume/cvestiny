@@ -20,7 +20,19 @@ class Tech_model extends CI_Model
         ->get();
     }
     
-    public function getOne($id)
+    public function getAllTech()
     {
+        $query = $this->db->query('SELECT competence_tech_nom, id FROM competence_technique');
+        return $query->result();
+    }
+
+    public function getAllCompTech(){
+        $id =  $this->session->userdata['candidat']['id'];
+        $query = $this->db->query('SELECT *
+                                     FROM candidat_competence_technique
+                                     JOIN competence_technique ON competence_technique.id=candidat_competence_technique.competence_technique_id
+                                     WHERE candidat_id ='. $id );
+        return $query->result_array();
+
     }
 }

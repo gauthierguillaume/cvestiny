@@ -1,6 +1,8 @@
 
 <div class="row">
+
     <div class="container">
+        <h1 class="text-center titl" style="margin-bottom: 30px; color: red "> Enregistrement</h1>
         <?php if (isset($_SESSION['success'])) { ?> <div class="alert alert-success"><?php echo $_SESSION['success']; ?></div>
 
         <?php } ?>
@@ -38,13 +40,13 @@
             </div>
 
             <div class="form-group">
-                <?php  echo form_label('Mot de passe', 'cand_mdp', $attributes=array()); ?>
+                <?php  echo form_label('Mot de Passe', 'cand_mdp', $attributes=array()); ?>
                 <?php echo form_password('cand_mdp',set_value('cand_mdp'), $extra=array("class" =>"form-control form-control-lg", "id" =>"cand_mdp"));  ?>
                 <span class="text-danger"><?php echo form_error('cand_mdp') ; ?></span>
             </div>
 
             <div class="form-group">
-                <?php  echo form_label('Confirmer le mot de passe', 'cand_mdp2', $attributes=array()); ?>
+                <?php  echo form_label('Confirmer le Mot de Passe', 'cand_mdp2', $attributes=array()); ?>
                 <?php echo form_password('cand_mdp2',set_value('cand_mdp2'), $extra=array("class" =>"form-control form-control-lg", "id" =>"cand_mdp2"));  ?>
                 <span class="text-danger"><?php echo form_error('cand_mdp2') ; ?></span>
             </div>

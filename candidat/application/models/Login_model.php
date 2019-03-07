@@ -16,16 +16,20 @@ class Login_model extends CI_Model
                     $this->form_validation->set_message('cand_mdp', 'Mot de passe erroné');
                 } else {
 
-                    $_SESSION['candidat'] = array(
-                        'id' => $user[0]['id'],
-                        'email' => $user[0]['cand_email'],
-                        'ip' => $_SERVER['REMOTE_ADDR']
-                    );
                     $userdata = array(
-                        'name' => $user[0]['cand_prenom'],
-                        'email' => $user[0]['cand_email'],
+                        'id'                 => $user[0]['id'],
+                        'prenom'             => $user[0]['cand_prenom'],
+                        'nom'                => $user[0]['cand_nom'],
+                        'email'              => $user[0]['cand_email'],
+                        'poste'              => $user[0]['cand_code_postal'],
+                        'naissance'          => $user[0]['cand_date_naissance'],
+                        'telephone'          => $user[0]['cand_telephone'],
+                        'adresse'            => $user[0]['cand_adresse'],
+                        'date_naissance'     => $user[0]['cand_date_naissance'],
+                        'ip'                 => $_SERVER['REMOTE_ADDR']
                     );
-                    $this->session->set_userdata($userdata);
+                    $this->session->set_userdata('candidat', $userdata);
+
                     // TODO: Rediriger vers connexion
                     redirect('Pages/index');
                 }

@@ -1,6 +1,7 @@
 
 <div class="row">
     <div class="container">
+        <h1 class="text-center" style="margin-bottom: 30px; color: red "> Connexion</h1>
 
         <div class="col-sm- ">
             <?php echo form_open(''); ?>

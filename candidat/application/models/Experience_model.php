@@ -13,7 +13,10 @@ protected $table ="candidat_experience";
         return $this->db->where('candidat_id', $candidat_id)->get($this->table);
     }
     
-    public function getOne($id)
+    public function getExperience()
     {
+        $idexperience =  $this->session->userdata['candidat']['id'];
+        $query = $this->db->query('SELECT exp_nom_travail, exp_entreprise ,exp_description, exp_duree FROM candidat_experience WHERE candidat_id =' . $idexperience );
+        return $query->result_array();
     }
 }

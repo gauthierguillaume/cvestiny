@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.1.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-02-28 09:41:17+0000\n"
+"PO-Revision-Date: 2019-03-06 05:56:35+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -273,11 +273,11 @@ msgid "My Network"
 msgstr "Mon réseau"
 
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:670
-msgid "This plugin doesn&#8217;t work with your version of PHP. "
+msgid "This plugin doesn&#8217;t work with your version of PHP."
 msgstr "Cette extension ne fonctionne pas avec votre version de PHP."
 
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:661
-msgid "This plugin doesn&#8217;t work with your version of WordPress. "
+msgid "This plugin doesn&#8217;t work with your version of WordPress."
 msgstr "Cette extension ne fonctionne pas avec votre version de WordPress."
 
 #. translators: %s: "Update PHP" page URL
@@ -298,8 +298,8 @@ msgid "<a href=\"%1$s\">Please update WordPress</a>, and then <a href=\"%2$s\">l
 msgstr "<a href=\"%1$s\">Veuillez mettre à jour WordPress</a> puis <a href=\"%2$s\">apprenez-en davantage sur la mise à jour de PHP</a>."
 
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:637
-msgid "This plugin doesn&#8217;t work with your versions of WordPress and PHP. "
-msgstr "Cette extension ne fonctionne pas avec votre version de WordPress et de PHP. "
+msgid "This plugin doesn&#8217;t work with your versions of WordPress and PHP."
+msgstr "Cette extension ne fonctionne pas avec vos versions de WordPress et de PHP."
 
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:532
 #: wp-admin/includes/plugin-install.php:823
