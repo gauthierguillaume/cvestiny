@@ -85,3 +85,6 @@
         ?>
 </div>
 </section>
+<div class="form-group text-center">   
+    <a href="http://localhost/projets/cvestiny/candidat/ "><input  class="btn btn-primary " type="button" value="Revenir sur CVestiny"></a>
+ </div>

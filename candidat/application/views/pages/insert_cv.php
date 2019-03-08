@@ -119,7 +119,7 @@
 
                                 <div class="form-group">
                                     <label for="dip_ecole">Nom de l'École</label>
-                                    <input type="text" id="dip_eccole" name="dip_eccole">
+                                    <input type="text" id="dip_ecole" name="dip_ecole">
                                     <span class="text-danger"><?php echo form_error('dip_ecole') ; ?></span>
                                 </div>
                                 <div class="form-group">

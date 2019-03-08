@@ -107,6 +107,7 @@ class Pages extends CI_Controller
 //                           TODO: Fonction Inserer un CV
     public function insertcv()
     {
+      $this->load->library('email');
         $this->load->model('Orga_model');
         $this->load->model('Tech_model');
         $this->load->model('Insert_cv_model');
@@ -173,7 +174,8 @@ class Pages extends CI_Controller
                             $this->input->post('exp_description'),
                             $this->input->post('cand_loisir_nom'),
                             $candId);
-                $this->session->set_flashdata('success', "Votre cv à bien était crée. ");
+                $this->session->set_flashdata('success', "Confirmation de la création de votre CV sur CVestiny.");
+                redirect(base_url('Pages/sendMail'));
                 $this->sendMail;
             } //                    TODO Si le formulaire n'est pas bon.
             else {
@@ -281,8 +283,10 @@ class Pages extends CI_Controller
       $this->email->subject('Confirmation de la création de votre CV sur CVestiny');
       $this->email->message($message);
       if($this->email->send())
-     {
-      echo 'Confirmation de la création de votre CV sur CVestiny.';
+     { ?><div class="form-group text-center">   <?php
+      echo 'Confirmation de la création de votre CV sur CVestiny. <a href="http://localhost/projets/cvestiny/candidat/Pages/cv_profile
+      " ><input  class="btn btn-primary " type="button" value="Voir mon CV"></a>'; ?>
+       </div> <?php
      }
      else
     {

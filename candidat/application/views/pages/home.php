@@ -25,8 +25,12 @@
                         <a class="nav-link js-scroll-trigger" href="<?php echo base_url('/pages/disconnect'); ?>">Déconnexion</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="<?php echo base_url('/pages/cv_profile'); ?>">Mon CV</a>
+                    </li>
+                    <li class="nav-item">
                         <p> <?php echo '<div class="blase" style="text-transform: uppercase; font-weight: bolder">'."bonjour $infos". '</div>'; ?></p>
                     </li>
+                    
                 <?php  } else { ?>
 
                 <li class="nav-item">
@@ -47,11 +51,13 @@
     <div class="container h-100">
         <div class="row h-100 align-items-center justify-content-center text-center">
             <div class="col-lg-10 align-self-end">
-                <h1 class="text-uppercase text-white font-weight-bold">Optimisez vos recrutements</h1>
+                <h1 class="text-uppercase text-white font-weight-bold">Prenez votre destin en main !
+
+</h1>
                 <hr class="divider my-4">
             </div>
             <div class="col-lg-8 align-self-baseline">
-                <p class="text-white-75 font-weight-light mb-5">Une meilleure gestion pour votre entreprise</p>
+                <p class="text-white-75 font-weight-light mb-5">Optimisez vos chances de recrutements</p>
                 <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">En savoir plus</a>
             </div>
         </div>
@@ -63,7 +69,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8 text-center">
-                <h2 class="text-white mt-0">Avec CVestiny, gagné en efficacité lors de vos recrutements !</h2>
+                <h2 class="text-white mt-0">Votre CV directement posé sur le bureau du recruteur !</h2>
                 <hr class="divider light my-4">
                 <p class="text-black-50 mb-4"> Notre plate-forme permet de trouver du travail en un clic !</p>
                 <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Commencer !</a>
